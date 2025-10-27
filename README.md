@@ -36,7 +36,7 @@ Isso demonstra que a Quadtree *lossless* não é eficiente para comprimir imagen
 
 1.  **Compilar:**
     ```bash
-    gcc Quadtree.c lodepng.c -o Quadtree -02 -lm
+    gcc Quadtree.c lodepng.c -o Quadtree -O2 -lm
     ```
 
 2.  **Executar:**
