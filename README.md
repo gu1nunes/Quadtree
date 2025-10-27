@@ -36,12 +36,12 @@ Isso demonstra que a Quadtree *lossless* não é eficiente para comprimir imagen
 
 1.  **Compilar:**
     ```bash
-    gcc -std=c11 -O2 quadtree_png.c lodepng.c -o quadtree_png -lm
+    gcc Quadtree.c lodepng.c -o Quadtree -02 -lm
     ```
 
 2.  **Executar:**
     ```bash
-    ./quadtree_png
+    ./Quadtree
     ```
 
 3.  **Saída:**
@@ -49,13 +49,16 @@ Isso demonstra que a Quadtree *lossless* não é eficiente para comprimir imagen
 
 ---
 
+
+**Universidade Federal de Alagoas – UFAL**
+
+![Logo IC](https://user-images.githubusercontent.com/91018438/204195385-acc6fcd4-05a7-4f25-87d1-cb7d5cc5c852.png)
+
+**Disciplina:** Estruturas de Dados
+
 **Autores:**
 * Jader Rogerio dos Santos Neto
 * Guilherme Nunes Alves
 * Carlos Antunis Bonfim de Silva Santos
 * Pedro Henrique Santos da Silva
 * Carlos Leonardo Rodrigues Novaes Carvalho
-
-**Universidade Federal de Alagoas – UFAL**
-
-**Disciplina:** Estruturas de Dados
